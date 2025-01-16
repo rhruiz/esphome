@@ -214,7 +214,7 @@ ESP32Camera::ESP32Camera() {
   this->config_.jpeg_quality = 10;
   this->config_.fb_count = 1;
   this->config_.grab_mode = CAMERA_GRAB_WHEN_EMPTY;
-  this->config_.fb_location = CAMERA_FB_IN_PSRAM;
+  // this->config_.fb_location = CAMERA_FB_IN_PSRAM;
 
   global_esp32_camera = this;
 }
